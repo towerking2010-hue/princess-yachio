@@ -1,0 +1,4695 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamShairPhysics_L1",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics L1"
+		},
+		{
+			"Id": "ParamShairPhysics_L2",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics L2"
+		},
+		{
+			"Id": "ParamShairPhysics_L3",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics L3"
+		},
+		{
+			"Id": "ParamShairPhysics_L4",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics L4"
+		},
+		{
+			"Id": "ParamShairPhysics_L5",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics L5"
+		},
+		{
+			"Id": "ParamShairPhysics_L6",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics L6"
+		},
+		{
+			"Id": "ParamShairPhysics_L7",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics L7"
+		},
+		{
+			"Id": "ParamDivider_36",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamShairPhysics_R1",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics R1"
+		},
+		{
+			"Id": "ParamShairPhysics_R2",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics R2"
+		},
+		{
+			"Id": "ParamShairPhysics_R3",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics R3"
+		},
+		{
+			"Id": "ParamShairPhysics_R4",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics R4"
+		},
+		{
+			"Id": "ParamShairPhysics_R5",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics R5"
+		},
+		{
+			"Id": "ParamShairPhysics_R6",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics R6"
+		},
+		{
+			"Id": "ParamShairPhysics_R7",
+			"GroupId": "ParamShairPhysics_LR",
+			"Name": "Side Hair Physics R7"
+		},
+		{
+			"Id": "ParamExpression_1",
+			"GroupId": "ParamExpression",
+			"Name": "Tears"
+		},
+		{
+			"Id": "ParamExpression_2",
+			"GroupId": "ParamExpression",
+			"Name": "Teardrop"
+		},
+		{
+			"Id": "ParamExpression_3",
+			"GroupId": "ParamExpression",
+			"Name": "Smiling Eyes"
+		},
+		{
+			"Id": "ParamExpression_4",
+			"GroupId": "ParamExpression",
+			"Name": "><"
+		},
+		{
+			"Id": "ParamHide_EyesL1",
+			"GroupId": "ParamExpression",
+			"Name": "Eyeball 1 Hide L"
+		},
+		{
+			"Id": "ParamHighLightHide_EyesL1",
+			"GroupId": "ParamExpression",
+			"Name": "Highlight 1 Hide L"
+		},
+		{
+			"Id": "ParamHide_EyeSocket",
+			"GroupId": "ParamExpression",
+			"Name": "Eye Socket Hide"
+		},
+		{
+			"Id": "ParamHide_EyeSocket2",
+			"GroupId": "ParamExpression",
+			"Name": "Octopus Eyes Hide"
+		},
+		{
+			"Id": "ParamSwitchCtrl_BodyX",
+			"GroupId": "ParamSwitchCtrl",
+			"Name": "Reverse Binding Switch_BodyX"
+		},
+		{
+			"Id": "ParamSwitchCtrl_BodyY",
+			"GroupId": "ParamSwitchCtrl",
+			"Name": "Reverse Binding Switch_BodyY"
+		},
+		{
+			"Id": "ParamSwitchCtrl_BodyZ",
+			"GroupId": "ParamSwitchCtrl",
+			"Name": "Reverse Binding Switch_BodyZ"
+		},
+		{
+			"Id": "ParamSwitchCtrl_ChestZ",
+			"GroupId": "ParamSwitchCtrl",
+			"Name": "Reverse Binding Switch_ChestZ"
+		},
+		{
+			"Id": "ParamSwitchCtrl_HipZ",
+			"GroupId": "ParamSwitchCtrl",
+			"Name": "Reverse Binding Switch_HipZ"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamOperation",
+			"Name": "OX"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamOperation",
+			"Name": "OY"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamOperation",
+			"Name": "OZ"
+		},
+		{
+			"Id": "PositionX",
+			"GroupId": "ParamOperation",
+			"Name": "OPX"
+		},
+		{
+			"Id": "PositionY",
+			"GroupId": "ParamOperation",
+			"Name": "OPY"
+		},
+		{
+			"Id": "PositionZ",
+			"GroupId": "ParamOperation",
+			"Name": "OPZ"
+		},
+		{
+			"Id": "ParamAngle_HeadX",
+			"GroupId": "ParamAngleHead",
+			"Name": "Head_X"
+		},
+		{
+			"Id": "ParamAngle_HeadY",
+			"GroupId": "ParamAngleHead",
+			"Name": "Head_Y"
+		},
+		{
+			"Id": "ParamAngle_HeadZ",
+			"GroupId": "ParamAngleHead",
+			"Name": "Head_Z"
+		},
+		{
+			"Id": "ParamAngle_HeadZ2",
+			"GroupId": "ParamAngleHead",
+			"Name": "Z Physics"
+		},
+		{
+			"Id": "ParamReference_1",
+			"GroupId": "ParamAngleHead",
+			"Name": "Reference"
+		},
+		{
+			"Id": "ParamAngleModify_HeadX",
+			"GroupId": "ParamAngleHead",
+			"Name": "Head_X Revision"
+		},
+		{
+			"Id": "ParamAngleModify_HeadY",
+			"GroupId": "ParamAngleHead",
+			"Name": "Head_Y Revision"
+		},
+		{
+			"Id": "ParamOutput_BodyX",
+			"GroupId": "ParamOutput",
+			"Name": "Body Output_BodyX"
+		},
+		{
+			"Id": "ParamOutput_BodyY",
+			"GroupId": "ParamOutput",
+			"Name": "Body Output_BodyY"
+		},
+		{
+			"Id": "ParamOutput_BodyZ",
+			"GroupId": "ParamOutput",
+			"Name": "Body Output_BodyZ"
+		},
+		{
+			"Id": "ParamOutput_ChestZ",
+			"GroupId": "ParamOutput",
+			"Name": "Body Output_ChestZ"
+		},
+		{
+			"Id": "ParamOutput_HipZ",
+			"GroupId": "ParamOutput",
+			"Name": "Body Output_HipZ"
+		},
+		{
+			"Id": "ParamPosition_Z",
+			"GroupId": "ParamAngleBody",
+			"Name": "Lean Forward"
+		},
+		{
+			"Id": "ParamAngle_BodyX",
+			"GroupId": "ParamAngleBody",
+			"Name": "Body_X1"
+		},
+		{
+			"Id": "ParamAngle_BodyX2",
+			"GroupId": "ParamAngleBody",
+			"Name": "Body_X2"
+		},
+		{
+			"Id": "ParamAngle_BodyX3",
+			"GroupId": "ParamAngleBody",
+			"Name": "Body_X3"
+		},
+		{
+			"Id": "ParamAngle_BodyY",
+			"GroupId": "ParamAngleBody",
+			"Name": "Body_Y1"
+		},
+		{
+			"Id": "ParamAngle_BodyY2",
+			"GroupId": "ParamAngleBody",
+			"Name": "Body_Y2"
+		},
+		{
+			"Id": "ParamAngle_BodyZ",
+			"GroupId": "ParamAngleBody",
+			"Name": "Body_Z"
+		},
+		{
+			"Id": "ParamAngle_BodyZ2",
+			"GroupId": "ParamAngleBody",
+			"Name": "Body_Z2"
+		},
+		{
+			"Id": "ParamAngle_ChestZ",
+			"GroupId": "ParamAngleBody",
+			"Name": "Chest_Z"
+		},
+		{
+			"Id": "ParamAngle_HipZ",
+			"GroupId": "ParamAngleBody",
+			"Name": "Hip_Z"
+		},
+		{
+			"Id": "ParamAngle_Foot_L",
+			"GroupId": "ParamAngleBody",
+			"Name": "Foot Perspective_L"
+		},
+		{
+			"Id": "ParamAngle_Foot_R",
+			"GroupId": "ParamAngleBody",
+			"Name": "Foot Perspective_R"
+		},
+		{
+			"Id": "ParamDivider_19",
+			"GroupId": "ParamAngleBody",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamAngle_ShoulderL",
+			"GroupId": "ParamAngleBody",
+			"Name": "Shoulder_L"
+		},
+		{
+			"Id": "ParamAngle_ShoulderR",
+			"GroupId": "ParamAngleBody",
+			"Name": "Shoulder_R"
+		},
+		{
+			"Id": "ParamAngle_HipUp",
+			"GroupId": "ParamAngleBody",
+			"Name": "Hip_Up"
+		},
+		{
+			"Id": "ParamAngle_HipDown",
+			"GroupId": "ParamAngleBody",
+			"Name": "Hip_Down"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamEye",
+			"Name": "Left Eye Open Close"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamEye",
+			"Name": "Left Eye Smile"
+		},
+		{
+			"Id": "ParamEyeSmile_Happy_L",
+			"GroupId": "ParamEye",
+			"Name": "L Eye - Emotion - Happy"
+		},
+		{
+			"Id": "ParamEyeSmile_Angry_L",
+			"GroupId": "ParamEye",
+			"Name": "L Eye - Emotion - Angry"
+		},
+		{
+			"Id": "ParamDivider_20",
+			"GroupId": "ParamEye",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamEye",
+			"Name": "Right Eye"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamEye",
+			"Name": "Right Eye Smile"
+		},
+		{
+			"Id": "ParamEyeSmile_Happy_R",
+			"GroupId": "ParamEye",
+			"Name": "R Eye - Emotion - Happy"
+		},
+		{
+			"Id": "ParamEyeSmile_Angry_R",
+			"GroupId": "ParamEye",
+			"Name": "R Eye - Emotion - Angry"
+		},
+		{
+			"Id": "ParamDivider_21",
+			"GroupId": "ParamEye",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamEye",
+			"Name": "Eyeball X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamEye",
+			"Name": "Eyeball Y"
+		},
+		{
+			"Id": "ParamEyeBallX2",
+			"GroupId": "ParamEye",
+			"Name": "Eyeball X(Eyelid Highlight)"
+		},
+		{
+			"Id": "ParamEyeBallY2",
+			"GroupId": "ParamEye",
+			"Name": "Eyeball Y(Eyelid Highlight)"
+		},
+		{
+			"Id": "ParamEyeBallX3",
+			"GroupId": "ParamEye",
+			"Name": "Eyeball X(Perspective)"
+		},
+		{
+			"Id": "ParamEyeBallY3",
+			"GroupId": "ParamEye",
+			"Name": "Eyeball Y(Perspective)"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "Parambrow",
+			"Name": "⚪ Left Eyebrow Up Down"
+		},
+		{
+			"Id": "ParamBrowLY2",
+			"GroupId": "Parambrow",
+			"Name": "Left Eyebrow Up Down"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "Parambrow",
+			"Name": "Left Eyebrow Angle"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "Parambrow",
+			"Name": "Left Eyebrow Deformation"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "Parambrow",
+			"Name": "Left Eyebrow Left Right"
+		},
+		{
+			"Id": "ParamDivider_22",
+			"GroupId": "Parambrow",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "Parambrow",
+			"Name": "⚪ Right Eyebrow Up Down"
+		},
+		{
+			"Id": "ParamBrowRY2",
+			"GroupId": "Parambrow",
+			"Name": "Right Eyebrow Up Down"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "Parambrow",
+			"Name": "Right Eyebrow Angle"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "Parambrow",
+			"Name": "Right Eyebrow Deformation"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "Parambrow",
+			"Name": "Right Eyebrow Left Right"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamMouth",
+			"Name": "Mouth Deformation"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamMouth",
+			"Name": "Mouth Open and Close"
+		},
+		{
+			"Id": "ParamMouthThickness",
+			"GroupId": "ParamMouth",
+			"Name": "Mouth Thickness"
+		},
+		{
+			"Id": "ParamMouthStraight",
+			"GroupId": "ParamMouth",
+			"Name": "Mouth Straight Line"
+		},
+		{
+			"Id": "ParamMouthShape",
+			"GroupId": "ParamMouth",
+			"Name": "Mouth Shape"
+		},
+		{
+			"Id": "ParamDivider_18",
+			"GroupId": "ParamMouth",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamMouthPhysics_X",
+			"GroupId": "ParamMouth",
+			"Name": "Mouth Physics X"
+		},
+		{
+			"Id": "ParamMouthPhysics_Y",
+			"GroupId": "ParamMouth",
+			"Name": "Mouth Physics Y"
+		},
+		{
+			"Id": "ParamDivider_24",
+			"GroupId": "ParamMouth",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamTongueOut",
+			"GroupId": "ParamMouth",
+			"Name": "TongueOut"
+		},
+		{
+			"Id": "ParamTongueOut_BS",
+			"GroupId": "ParamMouth",
+			"Name": "TongueOut_BS"
+		},
+		{
+			"Id": "ParamMouthAngleModify_XL",
+			"GroupId": "ParamMouth",
+			"Name": "Tongue Out_XL Revision"
+		},
+		{
+			"Id": "ParamMouthAngleModify_XR",
+			"GroupId": "ParamMouth",
+			"Name": "Tongue Out_XR Revision"
+		},
+		{
+			"Id": "ParamMouthAngleModify_YU",
+			"GroupId": "ParamMouth",
+			"Name": "Tongue Out_YU Revision"
+		},
+		{
+			"Id": "ParamMouthAngleModify_YD",
+			"GroupId": "ParamMouth",
+			"Name": "Tongue Out_YD Revision"
+		},
+		{
+			"Id": "ParamDivider_25",
+			"GroupId": "ParamMouth",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamMouthShrug",
+			"GroupId": "ParamMouth",
+			"Name": "MouthShrug"
+		},
+		{
+			"Id": "ParamMouthFunnel",
+			"GroupId": "ParamMouth",
+			"Name": "MouthFunnel"
+		},
+		{
+			"Id": "ParamCheekPuff",
+			"GroupId": "ParamMouth",
+			"Name": "CheekPuff"
+		},
+		{
+			"Id": "ParamCheekPuff2",
+			"GroupId": "ParamMouth",
+			"Name": "CheekPuff2"
+		},
+		{
+			"Id": "ParamMouthX",
+			"GroupId": "ParamMouth",
+			"Name": "MouthX"
+		},
+		{
+			"Id": "ParamMouthX2",
+			"GroupId": "ParamMouth",
+			"Name": "MouthX2"
+		},
+		{
+			"Id": "ParamEyeLSquint",
+			"GroupId": "ParamMouth",
+			"Name": "EyeLSquint"
+		},
+		{
+			"Id": "ParamEyeRSquint",
+			"GroupId": "ParamMouth",
+			"Name": "EyeRSquint"
+		},
+		{
+			"Id": "ParamMouthPuckerWiden",
+			"GroupId": "ParamMouth",
+			"Name": "MouthPuckerWiden"
+		},
+		{
+			"Id": "ParamJawOpen",
+			"GroupId": "ParamMouth",
+			"Name": "JawOpen"
+		},
+		{
+			"Id": "ParamMouthPressLipOpen",
+			"GroupId": "ParamMouth",
+			"Name": "MouthPressLipOpen"
+		},
+		{
+			"Id": "ParamTearPhysics_L1",
+			"GroupId": "ParamAnimation",
+			"Name": "Tears Physics L1"
+		},
+		{
+			"Id": "ParamTearPhysics_L2",
+			"GroupId": "ParamAnimation",
+			"Name": "Tears Physics L2"
+		},
+		{
+			"Id": "ParamTearPhysics_R1",
+			"GroupId": "ParamAnimation",
+			"Name": "Tears Physics R1"
+		},
+		{
+			"Id": "ParamTearPhysics_R2",
+			"GroupId": "ParamAnimation",
+			"Name": "Tears Physics R2"
+		},
+		{
+			"Id": "ParamDivider_70",
+			"GroupId": "ParamAnimation",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamTearTest",
+			"GroupId": "ParamAnimation",
+			"Name": "Orbit Test"
+		},
+		{
+			"Id": "ParamTearDown_1",
+			"GroupId": "ParamAnimation",
+			"Name": "Tears Flow Down 1"
+		},
+		{
+			"Id": "ParamTearDown_2",
+			"GroupId": "ParamAnimation",
+			"Name": "Tears Flow Down 2"
+		},
+		{
+			"Id": "ParamTearDown_3",
+			"GroupId": "ParamAnimation",
+			"Name": "Tears Flow Down 3"
+		},
+		{
+			"Id": "ParamTearDisappear_1",
+			"GroupId": "ParamAnimation",
+			"Name": "Tears Disappear 1"
+		},
+		{
+			"Id": "ParamTearDisappear_2",
+			"GroupId": "ParamAnimation",
+			"Name": "Tears Disappear 2"
+		},
+		{
+			"Id": "ParamTearDisappear_3",
+			"GroupId": "ParamAnimation",
+			"Name": "Tears Disappear 3"
+		},
+		{
+			"Id": "ParamDivider_71",
+			"GroupId": "ParamAnimation",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamCryDown_L",
+			"GroupId": "ParamAnimation",
+			"Name": "Crying Droop"
+		},
+		{
+			"Id": "ParamEyeCircles",
+			"GroupId": "ParamAnimation",
+			"Name": "Spiral Eyes"
+		},
+		{
+			"Id": "ParamPupilQuake_L1",
+			"GroupId": "ParamAnimation",
+			"Name": "Pupil Shake L1"
+		},
+		{
+			"Id": "ParamPupilQuake_R1",
+			"GroupId": "ParamAnimation",
+			"Name": "Pupil Shake R1"
+		},
+		{
+			"Id": "ParamDivider_89",
+			"GroupId": "ParamAnimation",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBook1",
+			"GroupId": "ParamAnimation",
+			"Name": "Book Page Flip 1"
+		},
+		{
+			"Id": "ParamBook2",
+			"GroupId": "ParamAnimation",
+			"Name": "Book Page Flip 2"
+		},
+		{
+			"Id": "ParamDivider_72",
+			"GroupId": "ParamAnimation",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "Ring_Perspective",
+			"GroupId": "ParamAnimation",
+			"Name": "Ring_Perspective"
+		},
+		{
+			"Id": "Ring_Rotate",
+			"GroupId": "ParamAnimation",
+			"Name": "Ring_Rotation"
+		},
+		{
+			"Id": "Ring_Flip",
+			"GroupId": "ParamAnimation",
+			"Name": "Ring_Flip"
+		},
+		{
+			"Id": "Ring_Reference2",
+			"GroupId": "ParamAnimation",
+			"Name": "Ring_Tilt"
+		},
+		{
+			"Id": "ParamDivider_97",
+			"GroupId": "ParamAnimation",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "Circle_Rotate_1",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Rotation 1"
+		},
+		{
+			"Id": "Circle_Rotate_2",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Rotation 2"
+		},
+		{
+			"Id": "Circle_Rotate_3",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Rotation 3"
+		},
+		{
+			"Id": "Circle_Rotate_4",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Rotation 4"
+		},
+		{
+			"Id": "Circle_Posizion_1",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Position 1"
+		},
+		{
+			"Id": "Circle_Posizion_2",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Position 2"
+		},
+		{
+			"Id": "Circle_Posizion_3",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Position 3"
+		},
+		{
+			"Id": "Circle_Reference1",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Tilt 1"
+		},
+		{
+			"Id": "Circle_Reference2",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Tilt 2"
+		},
+		{
+			"Id": "Circle_Reference3",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Tilt 3"
+		},
+		{
+			"Id": "Circle_Reference4",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Tilt 4"
+		},
+		{
+			"Id": "Circle_Reference5",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Tilt 5"
+		},
+		{
+			"Id": "Circle_Reference6",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Tilt 6"
+		},
+		{
+			"Id": "Circle_Flip1",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Flip 1"
+		},
+		{
+			"Id": "Circle_Flip2",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Flip 2"
+		},
+		{
+			"Id": "Circle_Flip3",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Flip 3"
+		},
+		{
+			"Id": "Circle_Flip4",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Flip 4"
+		},
+		{
+			"Id": "Circle_Flip5",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Flip 5"
+		},
+		{
+			"Id": "Circle_Flip6",
+			"GroupId": "ParamAnimation",
+			"Name": "Circle_Flip 6"
+		},
+		{
+			"Id": "ParamDivider_92",
+			"GroupId": "ParamAnimation",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "fire",
+			"GroupId": "ParamAnimation",
+			"Name": "Flame"
+		},
+		{
+			"Id": "ParamEyeballPhysics_L1",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Eyeball Physics L1"
+		},
+		{
+			"Id": "ParamEyeballPhysics_L2",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Eyeball Physics L2"
+		},
+		{
+			"Id": "ParamEyeballPhysics_L3",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Eyeball Physics L3"
+		},
+		{
+			"Id": "ParamEyeballLight_L",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Eyes Light Effect L1"
+		},
+		{
+			"Id": "ParamEyeballLight_L2",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Eyes Light Effect L2"
+		},
+		{
+			"Id": "ParamHighlightPhysics_L1",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Highlight Physics L1"
+		},
+		{
+			"Id": "ParamHighlightPhysics_L2",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Highlight Physics L2"
+		},
+		{
+			"Id": "ParamHighlightPhysics_L3",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Highlight Physics L3"
+		},
+		{
+			"Id": "ParamHighlightPhysics_L4",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Highlight Physics L4"
+		},
+		{
+			"Id": "ParamDivider_26",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamEyeballPhysics_R1",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Eyeball Physics R1"
+		},
+		{
+			"Id": "ParamEyeballPhysics_R2",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Eyeball Physics R2"
+		},
+		{
+			"Id": "ParamEyeballPhysics_R3",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Eyeball Physics R3"
+		},
+		{
+			"Id": "ParamEyeballLight_R",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Eyes Light Effect R1"
+		},
+		{
+			"Id": "ParamEyeballLight_R2",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Eyes Light Effect R2"
+		},
+		{
+			"Id": "ParamHighlightPhysics_R1",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Highlight Physics R1"
+		},
+		{
+			"Id": "ParamHighlightPhysics_R2",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Highlight Physics R2"
+		},
+		{
+			"Id": "ParamHighlightPhysics_R3",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Highlight Physics R3"
+		},
+		{
+			"Id": "ParamHighlightPhysics_R4",
+			"GroupId": "ParamEyeballPhysics",
+			"Name": "Highlight Physics R4"
+		},
+		{
+			"Id": "ParamEyelashPhysics_L1",
+			"GroupId": "ParamEyelashPhysics",
+			"Name": "Eyelash Physics L1_Open Close"
+		},
+		{
+			"Id": "ParamEyelashPhysics_L2",
+			"GroupId": "ParamEyelashPhysics",
+			"Name": "Eyelash Physics L2_Open Close"
+		},
+		{
+			"Id": "ParamEyeTailPhysics_L1",
+			"GroupId": "ParamEyelashPhysics",
+			"Name": "Eye Corner Physics L1_Open Close"
+		},
+		{
+			"Id": "ParamEyeTailPhysics_L2",
+			"GroupId": "ParamEyelashPhysics",
+			"Name": "Eye Corner Physics L2_Open Close"
+		},
+		{
+			"Id": "ParamDivider_27",
+			"GroupId": "ParamEyelashPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamEyelashPhysics_R1",
+			"GroupId": "ParamEyelashPhysics",
+			"Name": "Eyelash Physics R1_Open Close"
+		},
+		{
+			"Id": "ParamEyelashPhysics_R2",
+			"GroupId": "ParamEyelashPhysics",
+			"Name": "Eyelash Physics R2_Open Close"
+		},
+		{
+			"Id": "ParamEyeTailPhysics_R1",
+			"GroupId": "ParamEyelashPhysics",
+			"Name": "Eye Corner Physics R1_Open Close"
+		},
+		{
+			"Id": "ParamEyeTailPhysics_R2",
+			"GroupId": "ParamEyelashPhysics",
+			"Name": "Eye Corner Physics R2_Open Close"
+		},
+		{
+			"Id": "ParamOrbithPhysics_L1",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics L1"
+		},
+		{
+			"Id": "ParamOrbithPhysics_L2",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics L2"
+		},
+		{
+			"Id": "ParamOrbithPhysics_L3",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics L3"
+		},
+		{
+			"Id": "ParamOrbithPhysics_L4",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics L4"
+		},
+		{
+			"Id": "ParamDivider_28",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamOrbithPhysics_R1",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics R1"
+		},
+		{
+			"Id": "ParamOrbithPhysics_R2",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics R2"
+		},
+		{
+			"Id": "ParamOrbithPhysics_R3",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics R3"
+		},
+		{
+			"Id": "ParamOrbithPhysics_R4",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics R4"
+		},
+		{
+			"Id": "ParamDivider_29",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamOrbithPhysics_X1",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics_X"
+		},
+		{
+			"Id": "ParamOrbithPhysics_Y",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics_Y"
+		},
+		{
+			"Id": "ParamDivider_79",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamOrbithSmilePhysics_L1",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics_Smile_L1"
+		},
+		{
+			"Id": "ParamOrbithSmilePhysics_L1_BS",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics_Smile_L1_BS"
+		},
+		{
+			"Id": "ParamOrbithSmilePhysics_R1",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics_Smile_R1"
+		},
+		{
+			"Id": "ParamOrbithSmilePhysics_R1_BS",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics_Smile_R1_BS"
+		},
+		{
+			"Id": "ParamDivider_100",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamOrbithVBhysics_L1",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics_VB_L1"
+		},
+		{
+			"Id": "ParamOrbithVBhysics_R1",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eye Socket Physics_VB_R1"
+		},
+		{
+			"Id": "ParamDivider_101",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBrowPhysics_L1",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eyebrow Physics L1"
+		},
+		{
+			"Id": "ParamBrowPhysics_R1",
+			"GroupId": "ParamOrbithPhysics",
+			"Name": "Eyebrow Physics R1"
+		},
+		{
+			"Id": "PhyHighlight_L",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Phy HighlightL"
+		},
+		{
+			"Id": "PhyHighlight_R",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Phy HighlightR"
+		},
+		{
+			"Id": "ParamDivider_33",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamTearstainsPhysics_L1",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Tear Trail Physics L1"
+		},
+		{
+			"Id": "ParamTearstainsPhysics_L2",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Tear Trail Physics L2"
+		},
+		{
+			"Id": "ParamTearstainsPhysics_R1",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Tear Trail Physics R1"
+		},
+		{
+			"Id": "ParamTearstainsPhysics_R2",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Tear Trail Physics R2"
+		},
+		{
+			"Id": "ParamDivider_64",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamAngryPhysics_1",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Angry Physics 1"
+		},
+		{
+			"Id": "ParamAngryPhysics_2",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Angry Physics 2"
+		},
+		{
+			"Id": "ParamDivider_30",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamExpressionPhysics_L1",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Expression Physics L1"
+		},
+		{
+			"Id": "ParamExpressionPhysics_L2",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Expression Physics L2"
+		},
+		{
+			"Id": "ParamExpressionPhysics_L3",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Expression Physics L3"
+		},
+		{
+			"Id": "ParamDivider_31",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamExpressionPhysics_R1",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Expression Physics R1"
+		},
+		{
+			"Id": "ParamExpressionPhysics_R2",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Expression Physics R2"
+		},
+		{
+			"Id": "ParamExpressionPhysics_R3",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Expression Physics R3"
+		},
+		{
+			"Id": "ParamDivider_32",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamPhyFlip_L1",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Expression Flip L1"
+		},
+		{
+			"Id": "ParamPhyFlip_L2",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Expression Flip L2"
+		},
+		{
+			"Id": "ParamPhyFlip_R1",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Expression Flip R1"
+		},
+		{
+			"Id": "ParamPhyFlip_R2",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Expression Flip R2"
+		},
+		{
+			"Id": "ParamDivider_80",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamTonguePhysics_X1",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Tongue Out Physics X1"
+		},
+		{
+			"Id": "ParamTonguePhysics_X2",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Tongue Out Physics X2"
+		},
+		{
+			"Id": "ParamTonguePhysics_Y1",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Tongue Out Physics Y1"
+		},
+		{
+			"Id": "ParamTonguePhysics_Y2",
+			"GroupId": "ParamExpressionPhysics",
+			"Name": "Tongue Out Physics Y2"
+		},
+		{
+			"Id": "ParamEyeCloseBlinkOF_L1",
+			"GroupId": "ParamGroup6",
+			"Name": "Close Eye Opacity L1"
+		},
+		{
+			"Id": "ParamEyeCloseBlink_L1",
+			"GroupId": "ParamGroup6",
+			"Name": "Close Eye Effect L1"
+		},
+		{
+			"Id": "ParamEyeOpenBlinkOF_L1",
+			"GroupId": "ParamGroup6",
+			"Name": "Eyes Open Opacity L1"
+		},
+		{
+			"Id": "ParamEyeOpenBlink_L1",
+			"GroupId": "ParamGroup6",
+			"Name": "Eyes Open Effect L1"
+		},
+		{
+			"Id": "ParamEyeOpenBlinkOF_L2",
+			"GroupId": "ParamGroup6",
+			"Name": "Eyes Open Opacity L2"
+		},
+		{
+			"Id": "ParamEyeOpenBlink_L2",
+			"GroupId": "ParamGroup6",
+			"Name": "Eyes Open Effect L2"
+		},
+		{
+			"Id": "ParamHairPhysics_L1",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics L1"
+		},
+		{
+			"Id": "ParamHairPhysics_L2",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics L2"
+		},
+		{
+			"Id": "ParamHairPhysics_L3",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics L3"
+		},
+		{
+			"Id": "ParamHairPhysics_L4",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics L4"
+		},
+		{
+			"Id": "ParamHairPhysics_L5",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics L5"
+		},
+		{
+			"Id": "ParamHairPhysics_L6",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics L6"
+		},
+		{
+			"Id": "ParamHairPhysics_L7",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics L7"
+		},
+		{
+			"Id": "ParamDivider_34",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamHairPhysics_R1",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics R1"
+		},
+		{
+			"Id": "ParamHairPhysics_R2",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics R2"
+		},
+		{
+			"Id": "ParamHairPhysics_R3",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics R3"
+		},
+		{
+			"Id": "ParamHairPhysics_R4",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics R4"
+		},
+		{
+			"Id": "ParamHairPhysics_R5",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics R5"
+		},
+		{
+			"Id": "ParamHairPhysics_R6",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics R6"
+		},
+		{
+			"Id": "ParamHairPhysics_R7",
+			"GroupId": "ParamHairPhysics_LR",
+			"Name": "Bangs Physics R7"
+		},
+		{
+			"Id": "ParamDhairPhysics_L1",
+			"GroupId": "ParamDhairPhysics_LR",
+			"Name": "Layer Physics L1"
+		},
+		{
+			"Id": "ParamDhairPhysics_L2",
+			"GroupId": "ParamDhairPhysics_LR",
+			"Name": "Layer Physics L2"
+		},
+		{
+			"Id": "ParamDhairPhysics_L3",
+			"GroupId": "ParamDhairPhysics_LR",
+			"Name": "Layer Physics L3"
+		},
+		{
+			"Id": "ParamDhairPhysics_L4",
+			"GroupId": "ParamDhairPhysics_LR",
+			"Name": "Layer Physics L4"
+		},
+		{
+			"Id": "ParamDivider_35",
+			"GroupId": "ParamDhairPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDhairPhysics_R1",
+			"GroupId": "ParamDhairPhysics_LR",
+			"Name": "Layer Physics R1"
+		},
+		{
+			"Id": "ParamDhairPhysics_R2",
+			"GroupId": "ParamDhairPhysics_LR",
+			"Name": "Layer Physics R2"
+		},
+		{
+			"Id": "ParamDhairPhysics_R3",
+			"GroupId": "ParamDhairPhysics_LR",
+			"Name": "Layer Physics R3"
+		},
+		{
+			"Id": "ParamDhairPhysics_R4",
+			"GroupId": "ParamDhairPhysics_LR",
+			"Name": "Layer Physics R4"
+		},
+		{
+			"Id": "ParamBhairPhysics_L1",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics L1"
+		},
+		{
+			"Id": "ParamBhairPhysics_L2",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics L2"
+		},
+		{
+			"Id": "ParamBhairPhysics_L3",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics L3"
+		},
+		{
+			"Id": "ParamBhairPhysics_L4",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics L4"
+		},
+		{
+			"Id": "ParamBhairPhysics_L5",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics L5"
+		},
+		{
+			"Id": "ParamBhairPhysics_L6",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics L6"
+		},
+		{
+			"Id": "ParamBhairPhysics_L7",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics L7"
+		},
+		{
+			"Id": "ParamDivider_62",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBhairPhysics_R1",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics R1"
+		},
+		{
+			"Id": "ParamBhairPhysics_R2",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics R2"
+		},
+		{
+			"Id": "ParamBhairPhysics_R3",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics R3"
+		},
+		{
+			"Id": "ParamBhairPhysics_R4",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics R4"
+		},
+		{
+			"Id": "ParamBhairPhysics_R5",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics R5"
+		},
+		{
+			"Id": "ParamBhairPhysics_R6",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics R6"
+		},
+		{
+			"Id": "ParamBhairPhysics_R7",
+			"GroupId": "ParamBhairPhysics_LR",
+			"Name": "Back Hair Physics R7"
+		},
+		{
+			"Id": "ParamAhogePhysics_L1",
+			"GroupId": "ParamGroup",
+			"Name": "Ahoge Physics L1"
+		},
+		{
+			"Id": "ParamAhogePhysics_L2",
+			"GroupId": "ParamGroup",
+			"Name": "Ahoge Physics L2"
+		},
+		{
+			"Id": "ParamAhogePhysics_L3",
+			"GroupId": "ParamGroup",
+			"Name": "Ahoge Physics L3"
+		},
+		{
+			"Id": "ParamAhogePhysics_L4",
+			"GroupId": "ParamGroup",
+			"Name": "Ahoge Physics L4"
+		},
+		{
+			"Id": "ParamAhogePhysics_L5",
+			"GroupId": "ParamGroup",
+			"Name": "Ahoge Physics L5"
+		},
+		{
+			"Id": "ParamAhogePhysics_L6",
+			"GroupId": "ParamGroup",
+			"Name": "Ahoge Physics L6"
+		},
+		{
+			"Id": "ParamAhogePhysics_L7",
+			"GroupId": "ParamGroup",
+			"Name": "Ahoge Physics L7"
+		},
+		{
+			"Id": "ParamHairPhysics_X1",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics X1"
+		},
+		{
+			"Id": "ParamHairPhysics_X2",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics X2"
+		},
+		{
+			"Id": "ParamHairPhysics_X3",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics X3"
+		},
+		{
+			"Id": "ParamHairPhysics_X4",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics X4"
+		},
+		{
+			"Id": "ParamHairPhysics_X5",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics X5"
+		},
+		{
+			"Id": "ParamHairPhysics_X6",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics X6"
+		},
+		{
+			"Id": "ParamHairPhysics_X7",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics X7"
+		},
+		{
+			"Id": "ParamDivider_37",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamHairPhysics_Y1",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics Y1"
+		},
+		{
+			"Id": "ParamHairPhysics_Y2",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics Y2"
+		},
+		{
+			"Id": "ParamHairPhysics_Y3",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics Y3"
+		},
+		{
+			"Id": "ParamHairPhysics_Y4",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics Y4"
+		},
+		{
+			"Id": "ParamHairPhysics_Y5",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics Y5"
+		},
+		{
+			"Id": "ParamHairPhysics_Y6",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics Y6"
+		},
+		{
+			"Id": "ParamHairPhysics_Y7",
+			"GroupId": "ParamHairPhysics_XY",
+			"Name": "Front Hair Physics Y7"
+		},
+		{
+			"Id": "ParamBhairPhysics_X1",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics X1"
+		},
+		{
+			"Id": "ParamBhairPhysics_X2",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics X2"
+		},
+		{
+			"Id": "ParamBhairPhysics_X3",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics X3"
+		},
+		{
+			"Id": "ParamBhairPhysics_X4",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics X4"
+		},
+		{
+			"Id": "ParamBhairPhysics_X5",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics X5"
+		},
+		{
+			"Id": "ParamBhairPhysics_X6",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics X6"
+		},
+		{
+			"Id": "ParamBhairPhysics_X7",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics X7"
+		},
+		{
+			"Id": "ParamDivider_38",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBhairPhysics_Y1",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics Y1"
+		},
+		{
+			"Id": "ParamBhairPhysics_Y2",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics Y2"
+		},
+		{
+			"Id": "ParamBhairPhysics_Y3",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics Y3"
+		},
+		{
+			"Id": "ParamBhairPhysics_Y4",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics Y4"
+		},
+		{
+			"Id": "ParamBhairPhysics_Y5",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics Y5"
+		},
+		{
+			"Id": "ParamBhairPhysics_Y6",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics Y6"
+		},
+		{
+			"Id": "ParamBhairPhysics_Y7",
+			"GroupId": "ParamBhairPhysics_XY",
+			"Name": "Back Hair Physics Y7"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_X1",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics X1"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_X2",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics X2"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_X3",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics X3"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_X4",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics X4"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_X5",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics X5"
+		},
+		{
+			"Id": "ParamDivider_48",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_Y1",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics Y1"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_Y2",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics Y2"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_Y3",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics Y3"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_Y4",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics Y4"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_Y5",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics Y5"
+		},
+		{
+			"Id": "ParamDivider_49",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_L1",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics L1"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_L2",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics L2"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_L3",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics L3"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_L4",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics L4"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_L5",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics L5"
+		},
+		{
+			"Id": "ParamOvercoatPhysicsBS_L1",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics BS_L1"
+		},
+		{
+			"Id": "ParamOvercoatPhysicsBS_L2",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics BS_L2"
+		},
+		{
+			"Id": "ParamOvercoatPhysicsBS_L3",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics BS_L3"
+		},
+		{
+			"Id": "ParamDivider_50",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_R1",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics R1"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_R2",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics R2"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_R3",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics R3"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_R4",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics R4"
+		},
+		{
+			"Id": "ParamOvercoatPhysics_R5",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics R5"
+		},
+		{
+			"Id": "ParamOvercoatPhysicsBS_R1",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics BS_R1"
+		},
+		{
+			"Id": "ParamOvercoatPhysicsBS_R2",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics BS_R2"
+		},
+		{
+			"Id": "ParamOvercoatPhysicsBS_R3",
+			"GroupId": "ParamOvercoatPhysics",
+			"Name": "Coat Physics BS_R3"
+		},
+		{
+			"Id": "ParamDressAngle_L1",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Perspective L1"
+		},
+		{
+			"Id": "ParamDressAngle_L2",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Perspective L2"
+		},
+		{
+			"Id": "ParamDressAngle_L3",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Perspective L3"
+		},
+		{
+			"Id": "ParamDressAngle_R1",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Perspective R1"
+		},
+		{
+			"Id": "ParamDressAngle_R2",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Perspective R2"
+		},
+		{
+			"Id": "ParamDressAngle_R3",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Perspective R3"
+		},
+		{
+			"Id": "ParamDivider_67",
+			"GroupId": "ParamDressPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDressPhysics_X1",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics X1"
+		},
+		{
+			"Id": "ParamDressPhysics_X2",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics X2"
+		},
+		{
+			"Id": "ParamDressPhysics_X3",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics X3"
+		},
+		{
+			"Id": "ParamDressPhysics_X4",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics X4"
+		},
+		{
+			"Id": "ParamDressPhysics_X5",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics X5"
+		},
+		{
+			"Id": "ParamDressPhysics_X6",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics X6"
+		},
+		{
+			"Id": "ParamDivider_68",
+			"GroupId": "ParamDressPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDressPhysics_XY1",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Assist X-Y1"
+		},
+		{
+			"Id": "ParamDressPhysics_XY2",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Assist X-Y2"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_X1",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Assist X1"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_X2",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Assist X2"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_X3",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Assist X3"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_X4",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Assist X4"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_X5",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Assist X5"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_X6",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Assist X6"
+		},
+		{
+			"Id": "ParamDivider_95",
+			"GroupId": "ParamDressPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamCheongsamPhysics_X1",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Qipao Physics X1"
+		},
+		{
+			"Id": "ParamCheongsamPhysics_X2",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Qipao Physics X2"
+		},
+		{
+			"Id": "ParamCheongsamPhysics_X3",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Qipao Physics X3"
+		},
+		{
+			"Id": "ParamCheongsamPhysics_X4",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Qipao Physics X4"
+		},
+		{
+			"Id": "ParamCheongsamPhysics_X5",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Qipao Physics X5"
+		},
+		{
+			"Id": "ParamDivider_51",
+			"GroupId": "ParamDressPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDressPhysics_Y1",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics Y1"
+		},
+		{
+			"Id": "ParamDressPhysics_Y2",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics Y2"
+		},
+		{
+			"Id": "ParamDressPhysics_Y3",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics Y3"
+		},
+		{
+			"Id": "ParamDressPhysics_Y4",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics Y4"
+		},
+		{
+			"Id": "ParamDressPhysics_Y5",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics Y5"
+		},
+		{
+			"Id": "ParamDivider_63",
+			"GroupId": "ParamDressPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_YY1",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Assist Y1"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_YY2",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Assist Y2"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_YY3",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Assist Y3"
+		},
+		{
+			"Id": "ParamDivider_96",
+			"GroupId": "ParamDressPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDressPhysics_L1",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics L1"
+		},
+		{
+			"Id": "ParamDressPhysics_L2",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics L2"
+		},
+		{
+			"Id": "ParamDressPhysics_L3",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics L3"
+		},
+		{
+			"Id": "ParamDressPhysics_L4",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics L4"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_L1",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics BS_L1"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_L2",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics BS_L2"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_L3",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics BS_L3"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_L4",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics BS_L4"
+		},
+		{
+			"Id": "ParamDivider_52",
+			"GroupId": "ParamDressPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDressPhysics_R1",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics R1"
+		},
+		{
+			"Id": "ParamDressPhysics_R2",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics R2"
+		},
+		{
+			"Id": "ParamDressPhysics_R3",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics R3"
+		},
+		{
+			"Id": "ParamDressPhysics_R4",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics R4"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_R1",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics BS_R1"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_R2",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics BS_R2"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_R3",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics BS_R3"
+		},
+		{
+			"Id": "ParamDressPhysicsBS_R4",
+			"GroupId": "ParamDressPhysics",
+			"Name": "Skirt Physics BS_R4"
+		},
+		{
+			"Id": "ParamHatPhysics_X1",
+			"GroupId": "ParamHatPhysics",
+			"Name": "Hat Physics X1"
+		},
+		{
+			"Id": "ParamHatPhysics_X2",
+			"GroupId": "ParamHatPhysics",
+			"Name": "Hat Physics X2"
+		},
+		{
+			"Id": "ParamHatPhysics_X3",
+			"GroupId": "ParamHatPhysics",
+			"Name": "Hat Physics X3"
+		},
+		{
+			"Id": "ParamHatPhysics_X4",
+			"GroupId": "ParamHatPhysics",
+			"Name": "Hat Physics X4"
+		},
+		{
+			"Id": "ParamDivider_54",
+			"GroupId": "ParamHatPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamHatPhysics_Y1",
+			"GroupId": "ParamHatPhysics",
+			"Name": "Hat Physics Y1"
+		},
+		{
+			"Id": "ParamHatPhysics_Y2",
+			"GroupId": "ParamHatPhysics",
+			"Name": "Hat Physics Y2"
+		},
+		{
+			"Id": "ParamHatPhysics_Y3",
+			"GroupId": "ParamHatPhysics",
+			"Name": "Hat Physics Y3"
+		},
+		{
+			"Id": "ParamHatPhysics_Y4",
+			"GroupId": "ParamHatPhysics",
+			"Name": "Hat Physics Y4"
+		},
+		{
+			"Id": "ParamHatEar_L1",
+			"GroupId": "ParamGroup5",
+			"Name": "Hat Ear Physics L1"
+		},
+		{
+			"Id": "ParamHatEar_L2",
+			"GroupId": "ParamGroup5",
+			"Name": "Hat Ear Physics L2"
+		},
+		{
+			"Id": "ParamHatEar_L3",
+			"GroupId": "ParamGroup5",
+			"Name": "Hat Ear Physics L3"
+		},
+		{
+			"Id": "ParamDivider_94",
+			"GroupId": "ParamGroup5",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamHatEar_R1",
+			"GroupId": "ParamGroup5",
+			"Name": "Hat Ear Physics R1"
+		},
+		{
+			"Id": "ParamHatEar_R2",
+			"GroupId": "ParamGroup5",
+			"Name": "Hat Ear Physics R2"
+		},
+		{
+			"Id": "ParamHatEar_R3",
+			"GroupId": "ParamGroup5",
+			"Name": "Hat Ear Physics R3"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_X1",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics X1"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_X2",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics X2"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_X3",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics X3"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_X4",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics X4"
+		},
+		{
+			"Id": "ParamDivider_53",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBackClothesPhysicsBS_X1",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics BS_X1"
+		},
+		{
+			"Id": "ParamBackClothesPhysicsBS_X2",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics BS_X2"
+		},
+		{
+			"Id": "ParamBackClothesPhysicsBS_X3",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics BS_X3"
+		},
+		{
+			"Id": "ParamBackClothesPhysicsBS_X4",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics BS_X4"
+		},
+		{
+			"Id": "ParamDivider_102",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_Y1",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics Y1"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_Y2",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics Y2"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_Y3",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics Y3"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_Y4",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics Y4"
+		},
+		{
+			"Id": "ParamDivider_99",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_L1",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics L1"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_L2",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics L2"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_L3",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics L3"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_L4",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics L4"
+		},
+		{
+			"Id": "ParamDivider_98",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_R1",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics R1"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_R2",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics R2"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_R3",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics R3"
+		},
+		{
+			"Id": "ParamBackClothesPhysics_R4",
+			"GroupId": "ParamBackClothesPhysics",
+			"Name": "Back Hem Physics R4"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics_L1",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "Pendant Physics L1 (Head)"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics_L2",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "Pendant Physics L2 (Head)"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics_L3",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "Pendant Physics L3 (Head)"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics_L4",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "Pendant Physics L4 (Head)"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics_L5",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "Pendant Physics L5 (Head)"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics_L6",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "Pendant Physics L6 (Head)"
+		},
+		{
+			"Id": "ParamDivider_43",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics_R1",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "Pendant Physics R1 (Head)"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics_R2",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "Pendant Physics R2 (Head)"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics_R3",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "Pendant Physics R3 (Head)"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics_R4",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "Pendant Physics R4 (Head)"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics_R5",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "Pendant Physics R5 (Head)"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics_R6",
+			"GroupId": "ParamHeadPendantPhysics",
+			"Name": "Pendant Physics R6 (Head)"
+		},
+		{
+			"Id": "ParamDecorationsPhysics_L1",
+			"GroupId": "ParamDecorationsPhysics",
+			"Name": "Earring Physics L1"
+		},
+		{
+			"Id": "ParamDecorationsPhysics_L2",
+			"GroupId": "ParamDecorationsPhysics",
+			"Name": "Earring Physics L2"
+		},
+		{
+			"Id": "ParamDecorationsPhysics_L3",
+			"GroupId": "ParamDecorationsPhysics",
+			"Name": "Earring Physics L3"
+		},
+		{
+			"Id": "ParamDecorationsPhysics_L4",
+			"GroupId": "ParamDecorationsPhysics",
+			"Name": "Earring Physics L4"
+		},
+		{
+			"Id": "ParamDecorationsPhysics_L5",
+			"GroupId": "ParamDecorationsPhysics",
+			"Name": "Earring Physics L5"
+		},
+		{
+			"Id": "ParamDivider_44",
+			"GroupId": "ParamDecorationsPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDecorationsPhysics_R1",
+			"GroupId": "ParamDecorationsPhysics",
+			"Name": "Earring Physics R1"
+		},
+		{
+			"Id": "ParamDecorationsPhysics_R2",
+			"GroupId": "ParamDecorationsPhysics",
+			"Name": "Earring Physics R2"
+		},
+		{
+			"Id": "ParamDecorationsPhysics_R3",
+			"GroupId": "ParamDecorationsPhysics",
+			"Name": "Earring Physics R3"
+		},
+		{
+			"Id": "ParamDecorationsPhysics_R4",
+			"GroupId": "ParamDecorationsPhysics",
+			"Name": "Earring Physics R4"
+		},
+		{
+			"Id": "ParamDecorationsPhysics_R5",
+			"GroupId": "ParamDecorationsPhysics",
+			"Name": "Earring Physics R5"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics_L1",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "Pendant Physics L1 (Body)"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics_L2",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "Pendant Physics L2 (Body)"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics_L3",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "Pendant Physics L3 (Body)"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics_L4",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "Pendant Physics L4 (Body)"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics_L5",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "Pendant Physics L5 (Body)"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics_L6",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "Pendant Physics L6 (Body)"
+		},
+		{
+			"Id": "ParamDivider_65",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics_R1",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "Pendant Physics R1 (Body)"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics_R2",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "Pendant Physics R2 (Body)"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics_R3",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "Pendant Physics R3 (Body)"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics_R4",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "Pendant Physics R4 (Body)"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics_R5",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "Pendant Physics R5 (Body)"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics_R6",
+			"GroupId": "ParamBodyPendantePhysics",
+			"Name": "Pendant Physics R6 (Body)"
+		},
+		{
+			"Id": "ParamNecklacePhysics_X1",
+			"GroupId": "ParamGroup3",
+			"Name": "Necklace Physics X1"
+		},
+		{
+			"Id": "ParamNecklacePhysics_X2",
+			"GroupId": "ParamGroup3",
+			"Name": "Necklace Physics X2"
+		},
+		{
+			"Id": "ParamNecklacePhysics_X3",
+			"GroupId": "ParamGroup3",
+			"Name": "Necklace Physics X3"
+		},
+		{
+			"Id": "ParamDivider_90",
+			"GroupId": "ParamGroup3",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamNecklacePhysics_Y1",
+			"GroupId": "ParamGroup3",
+			"Name": "Necklace Physics Y1"
+		},
+		{
+			"Id": "ParamNecklacePhysics_Y2",
+			"GroupId": "ParamGroup3",
+			"Name": "Necklace Physics Y2"
+		},
+		{
+			"Id": "ParamNecklacePhysics_Y3",
+			"GroupId": "ParamGroup3",
+			"Name": "Necklace Physics Y3"
+		},
+		{
+			"Id": "ParamSleevePendantPhysics_L1",
+			"GroupId": "ParamSleevePendantPhysics",
+			"Name": "Pendant Physics L1 (Sleeve)"
+		},
+		{
+			"Id": "ParamSleevePendantPhysics_L2",
+			"GroupId": "ParamSleevePendantPhysics",
+			"Name": "Pendant Physics L2 (Sleeve)"
+		},
+		{
+			"Id": "ParamSleevePendantPhysics_L3",
+			"GroupId": "ParamSleevePendantPhysics",
+			"Name": "Pendant Physics L3 (Sleeve)"
+		},
+		{
+			"Id": "ParamDivider_74",
+			"GroupId": "ParamSleevePendantPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamSleevePendantPhysics_R1",
+			"GroupId": "ParamSleevePendantPhysics",
+			"Name": "Pendant Physics R1 (Sleeve)"
+		},
+		{
+			"Id": "ParamSleevePendantPhysics_R2",
+			"GroupId": "ParamSleevePendantPhysics",
+			"Name": "Pendant Physics R2 (Sleeve)"
+		},
+		{
+			"Id": "ParamSleevePendantPhysics_R3",
+			"GroupId": "ParamSleevePendantPhysics",
+			"Name": "Pendant Physics R3 (Sleeve)"
+		},
+		{
+			"Id": "ParamBreastPhysics_X1",
+			"GroupId": "ParambreastPhysics",
+			"Name": "Chest Physics X1"
+		},
+		{
+			"Id": "ParamBreastPhysics_X2",
+			"GroupId": "ParambreastPhysics",
+			"Name": "Chest Physics X2"
+		},
+		{
+			"Id": "ParamBreastPhysics_X3",
+			"GroupId": "ParambreastPhysics",
+			"Name": "Chest Physics X3"
+		},
+		{
+			"Id": "ParamDivider_75",
+			"GroupId": "ParambreastPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBreastPhysics_Y1",
+			"GroupId": "ParambreastPhysics",
+			"Name": "Chest Physics Y1"
+		},
+		{
+			"Id": "ParamBreastPhysics_Y2",
+			"GroupId": "ParambreastPhysics",
+			"Name": "Chest Physics Y2"
+		},
+		{
+			"Id": "ParamBreastPhysics_Y3",
+			"GroupId": "ParambreastPhysics",
+			"Name": "Chest Physics Y3"
+		},
+		{
+			"Id": "ParamArmPhysics_L1",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics L1"
+		},
+		{
+			"Id": "ParamArmPhysics_L2",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics L2"
+		},
+		{
+			"Id": "ParamArmPhysics_L3",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics L3"
+		},
+		{
+			"Id": "ParamArmPhysics_L4",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics L4"
+		},
+		{
+			"Id": "ParamArmPhysics_L5",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics L5"
+		},
+		{
+			"Id": "ParamDivider_45",
+			"GroupId": "ParamArmPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamArmPhysics_R1",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics R1"
+		},
+		{
+			"Id": "ParamArmPhysics_R2",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics R2"
+		},
+		{
+			"Id": "ParamArmPhysics_R3",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics R3"
+		},
+		{
+			"Id": "ParamArmPhysics_R4",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics R4"
+		},
+		{
+			"Id": "ParamArmPhysics_R5",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics R5"
+		},
+		{
+			"Id": "ParamDivider_76",
+			"GroupId": "ParamArmPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamArmBPhysics_L1",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics LB1"
+		},
+		{
+			"Id": "ParamArmBPhysics_L2",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics LB2"
+		},
+		{
+			"Id": "ParamArmBPhysics_L3",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics LB3"
+		},
+		{
+			"Id": "ParamArmBPhysics_L4",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics LB4"
+		},
+		{
+			"Id": "ParamArmBPhysics_L5",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics LB5"
+		},
+		{
+			"Id": "ParamDivider_77",
+			"GroupId": "ParamArmPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamArmBPhysics_R1",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics RB1"
+		},
+		{
+			"Id": "ParamArmBPhysics_R2",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics RB2"
+		},
+		{
+			"Id": "ParamArmBPhysics_R3",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics RB3"
+		},
+		{
+			"Id": "ParamArmBPhysics_R4",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics RB4"
+		},
+		{
+			"Id": "ParamArmBPhysics_R5",
+			"GroupId": "ParamArmPhysics",
+			"Name": "Arm Physics RB5"
+		},
+		{
+			"Id": "ParamEarShape_L1",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Shape L1"
+		},
+		{
+			"Id": "ParamEarShape_L2",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Shape L2"
+		},
+		{
+			"Id": "ParamEarShape_L3",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Shape L3"
+		},
+		{
+			"Id": "ParamDivider_39",
+			"GroupId": "ParamEarPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamEarPhysics_L1",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Physics L1"
+		},
+		{
+			"Id": "ParamEarPhysics_L2",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Physics L2"
+		},
+		{
+			"Id": "ParamEarPhysics_L3",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Physics L3"
+		},
+		{
+			"Id": "ParamEarPhysics_L4",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Physics L4"
+		},
+		{
+			"Id": "ParamEarPhysicsBS_L1",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Physics BS_L1"
+		},
+		{
+			"Id": "ParamEarPhysicsBS_L2",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Physics BS_L2"
+		},
+		{
+			"Id": "ParamDivider_40",
+			"GroupId": "ParamEarPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamEarShape_R1",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Shape R1"
+		},
+		{
+			"Id": "ParamEarShape_R2",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Shape R2"
+		},
+		{
+			"Id": "ParamEarShape_R3",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Shape R3"
+		},
+		{
+			"Id": "ParamDivider_41",
+			"GroupId": "ParamEarPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamEarPhysics_R1",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Physics R1"
+		},
+		{
+			"Id": "ParamEarPhysics_R2",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Physics R2"
+		},
+		{
+			"Id": "ParamEarPhysics_R3",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Physics R3"
+		},
+		{
+			"Id": "ParamEarPhysics_R4",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Physics R4"
+		},
+		{
+			"Id": "ParamEarPhysicsBS_R1",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Physics BS_R1"
+		},
+		{
+			"Id": "ParamEarPhysicsBS_R2",
+			"GroupId": "ParamEarPhysics",
+			"Name": "Beast Ear Physics BS_R2"
+		},
+		{
+			"Id": "ParamWingPhysics_L1",
+			"GroupId": "ParamWingPhysics",
+			"Name": "Wing Physics L1"
+		},
+		{
+			"Id": "ParamWingPhysics_L2",
+			"GroupId": "ParamWingPhysics",
+			"Name": "Wing Physics L2"
+		},
+		{
+			"Id": "ParamWingPhysics_L3",
+			"GroupId": "ParamWingPhysics",
+			"Name": "Wing Physics L3"
+		},
+		{
+			"Id": "ParamWingPhysics_L4",
+			"GroupId": "ParamWingPhysics",
+			"Name": "Wing Physics L4"
+		},
+		{
+			"Id": "ParamDivider_42",
+			"GroupId": "ParamWingPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamWingPhysics_R1",
+			"GroupId": "ParamWingPhysics",
+			"Name": "Wing Physics R1"
+		},
+		{
+			"Id": "ParamWingPhysics_R2",
+			"GroupId": "ParamWingPhysics",
+			"Name": "Wing Physics R2"
+		},
+		{
+			"Id": "ParamWingPhysics_R3",
+			"GroupId": "ParamWingPhysics",
+			"Name": "Wing Physics R3"
+		},
+		{
+			"Id": "ParamWingPhysics_R4",
+			"GroupId": "ParamWingPhysics",
+			"Name": "Wing Physics R4"
+		},
+		{
+			"Id": "ParamTailPhysics_L1",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics L1"
+		},
+		{
+			"Id": "ParamTailPhysics_L2",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics L2"
+		},
+		{
+			"Id": "ParamTailPhysics_L3",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics L3"
+		},
+		{
+			"Id": "ParamTailPhysics_L4",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics L4"
+		},
+		{
+			"Id": "ParamTailPhysics_L5",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics L5"
+		},
+		{
+			"Id": "ParamTailPhysics_L6",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics L6"
+		},
+		{
+			"Id": "ParamTailPhysics_L7",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics L7"
+		},
+		{
+			"Id": "ParamDivider_69",
+			"GroupId": "ParamTailPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamTailPhysics_R1",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics R1"
+		},
+		{
+			"Id": "ParamTailPhysics_R2",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics R2"
+		},
+		{
+			"Id": "ParamTailPhysics_R3",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics R3"
+		},
+		{
+			"Id": "ParamTailPhysics_R4",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics R4"
+		},
+		{
+			"Id": "ParamTailPhysics_R5",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics R5"
+		},
+		{
+			"Id": "ParamTailPhysics_R6",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics R6"
+		},
+		{
+			"Id": "ParamTailPhysics_R7",
+			"GroupId": "ParamTailPhysics",
+			"Name": "Tail Physics R7"
+		},
+		{
+			"Id": "ParamCollaPhysics_L1",
+			"GroupId": "ParamCollaPhysics",
+			"Name": "Collar Physics L1"
+		},
+		{
+			"Id": "ParamCollaPhysics_L2",
+			"GroupId": "ParamCollaPhysics",
+			"Name": "Collar Physics L2"
+		},
+		{
+			"Id": "ParamCollaPhysics_L3",
+			"GroupId": "ParamCollaPhysics",
+			"Name": "Collar Physics L3"
+		},
+		{
+			"Id": "ParamDivider_46",
+			"GroupId": "ParamCollaPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamCollaPhysics_R1",
+			"GroupId": "ParamCollaPhysics",
+			"Name": "Collar Physics R1"
+		},
+		{
+			"Id": "ParamCollaPhysics_R2",
+			"GroupId": "ParamCollaPhysics",
+			"Name": "Collar Physics R2"
+		},
+		{
+			"Id": "ParamCollaPhysics_R3",
+			"GroupId": "ParamCollaPhysics",
+			"Name": "Collar Physics R3"
+		},
+		{
+			"Id": "ParamSleevePhysics_L1",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics L1"
+		},
+		{
+			"Id": "ParamSleevePhysics_L2",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics L2"
+		},
+		{
+			"Id": "ParamSleevePhysics_L3",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics L3"
+		},
+		{
+			"Id": "ParamSleevePhysics_L4",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics L4"
+		},
+		{
+			"Id": "ParamSleevePhysics_L5",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics L5"
+		},
+		{
+			"Id": "ParamSleevePhysics_L6",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics L6"
+		},
+		{
+			"Id": "ParamSleevePhysicsBS_L1",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics BS_L1"
+		},
+		{
+			"Id": "ParamSleevePhysicsBS_L2",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics BS_L2"
+		},
+		{
+			"Id": "ParamSleevePhysicsBS_L3",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics BS_L3"
+		},
+		{
+			"Id": "ParamDivider_103",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamSleeveLPhysics_L1",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics Long_L1"
+		},
+		{
+			"Id": "ParamSleeveLPhysics_L2",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics Long_L2"
+		},
+		{
+			"Id": "ParamSleeveLPhysics_L3",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics Long_L3"
+		},
+		{
+			"Id": "ParamSleeveLPhysics_L4",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics Long_L4"
+		},
+		{
+			"Id": "ParamDivider_47",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamSleevePhysics_R1",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics R1"
+		},
+		{
+			"Id": "ParamSleevePhysics_R2",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics R2"
+		},
+		{
+			"Id": "ParamSleevePhysics_R3",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics R3"
+		},
+		{
+			"Id": "ParamSleevePhysics_R4",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics R4"
+		},
+		{
+			"Id": "ParamSleevePhysics_R5",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics R5"
+		},
+		{
+			"Id": "ParamSleevePhysics_R6",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics R6"
+		},
+		{
+			"Id": "ParamSleevePhysicsBS_R1",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics BS_R1"
+		},
+		{
+			"Id": "ParamSleevePhysicsBS_R2",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics BS_R2"
+		},
+		{
+			"Id": "ParamSleevePhysicsBS_R3",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics BS_R3"
+		},
+		{
+			"Id": "ParamDivider_104",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamSleeveLPhysics_R1",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics Long_R1"
+		},
+		{
+			"Id": "ParamSleeveLPhysics_R2",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics Long_R2"
+		},
+		{
+			"Id": "ParamSleeveLPhysics_R3",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics Long_R3"
+		},
+		{
+			"Id": "ParamSleeveLPhysics_R4",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics Long_R4"
+		},
+		{
+			"Id": "ParamDivider_93",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamSleevePhysics_LB1",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics LB1"
+		},
+		{
+			"Id": "ParamSleevePhysics_LB2",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics LB2"
+		},
+		{
+			"Id": "ParamSleevePhysics_LB3",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics LB3"
+		},
+		{
+			"Id": "ParamSleevePhysics_LB4",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics LB4"
+		},
+		{
+			"Id": "ParamSleevePhysics_LB5",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics LB5"
+		},
+		{
+			"Id": "ParamSleevePhysics_LB6",
+			"GroupId": "ParamSleevePhysics",
+			"Name": "Sleeve Physics LB6"
+		},
+		{
+			"Id": "ParamBowBPhysics_L1",
+			"GroupId": "ParamBowBPhysics",
+			"Name": "Bow Physics L1 (Body)"
+		},
+		{
+			"Id": "ParamBowBPhysics_L2",
+			"GroupId": "ParamBowBPhysics",
+			"Name": "Bow Physics L2 (Body)"
+		},
+		{
+			"Id": "ParamBowBPhysics_L3",
+			"GroupId": "ParamBowBPhysics",
+			"Name": "Bow Physics L3 (Body)"
+		},
+		{
+			"Id": "ParamBowBPhysics_L4",
+			"GroupId": "ParamBowBPhysics",
+			"Name": "Bow Physics L4 (Body)"
+		},
+		{
+			"Id": "ParamBowBPhysics_L5",
+			"GroupId": "ParamBowBPhysics",
+			"Name": "Bow Physics L5 (Body)"
+		},
+		{
+			"Id": "ParamDivider_55",
+			"GroupId": "ParamBowBPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBowBPhysics_R1",
+			"GroupId": "ParamBowBPhysics",
+			"Name": "Bow Physics R1 (Body)"
+		},
+		{
+			"Id": "ParamBowBPhysics_R2",
+			"GroupId": "ParamBowBPhysics",
+			"Name": "Bow Physics R2 (Body)"
+		},
+		{
+			"Id": "ParamBowBPhysics_R3",
+			"GroupId": "ParamBowBPhysics",
+			"Name": "Bow Physics R3 (Body)"
+		},
+		{
+			"Id": "ParamBowBPhysics_R4",
+			"GroupId": "ParamBowBPhysics",
+			"Name": "Bow Physics R4 (Body)"
+		},
+		{
+			"Id": "ParamBowBPhysics_R5",
+			"GroupId": "ParamBowBPhysics",
+			"Name": "Bow Physics R5 (Body)"
+		},
+		{
+			"Id": "ParamBowHPhysics_L1",
+			"GroupId": "ParamBowHPhysics",
+			"Name": "Bow Physics L1 (Head)"
+		},
+		{
+			"Id": "ParamBowHPhysics_L2",
+			"GroupId": "ParamBowHPhysics",
+			"Name": "Bow Physics L2 (Head)"
+		},
+		{
+			"Id": "ParamBowHPhysics_L3",
+			"GroupId": "ParamBowHPhysics",
+			"Name": "Bow Physics L3 (Head)"
+		},
+		{
+			"Id": "ParamBowHPhysics_L4",
+			"GroupId": "ParamBowHPhysics",
+			"Name": "Bow Physics L4 (Head)"
+		},
+		{
+			"Id": "ParamBowHPhysics_L5",
+			"GroupId": "ParamBowHPhysics",
+			"Name": "Bow Physics L5 (Head)"
+		},
+		{
+			"Id": "ParamDivider_73",
+			"GroupId": "ParamBowHPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBowHPhysics_R1",
+			"GroupId": "ParamBowHPhysics",
+			"Name": "Bow Physics R1 (Head)"
+		},
+		{
+			"Id": "ParamBowHPhysics_R2",
+			"GroupId": "ParamBowHPhysics",
+			"Name": "Bow Physics R2 (Head)"
+		},
+		{
+			"Id": "ParamBowHPhysics_R3",
+			"GroupId": "ParamBowHPhysics",
+			"Name": "Bow Physics R3 (Head)"
+		},
+		{
+			"Id": "ParamBowHPhysics_R4",
+			"GroupId": "ParamBowHPhysics",
+			"Name": "Bow Physics R4 (Head)"
+		},
+		{
+			"Id": "ParamBowHPhysics_R5",
+			"GroupId": "ParamBowHPhysics",
+			"Name": "Bow Physics R5 (Head)"
+		},
+		{
+			"Id": "ParamHChainPhysics_L1",
+			"GroupId": "ParamChainHPhysics",
+			"Name": "Chain Physics L1 (Head)"
+		},
+		{
+			"Id": "ParamHChainPhysics_L2",
+			"GroupId": "ParamChainHPhysics",
+			"Name": "Chain Physics L2 (Head)"
+		},
+		{
+			"Id": "ParamHChainPhysics_L3",
+			"GroupId": "ParamChainHPhysics",
+			"Name": "Chain Physics L3 (Head)"
+		},
+		{
+			"Id": "ParamDivider_56",
+			"GroupId": "ParamChainHPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamHChainPhysics_R1",
+			"GroupId": "ParamChainHPhysics",
+			"Name": "Chain Physics R1 (Head)"
+		},
+		{
+			"Id": "ParamHChainPhysics_R2",
+			"GroupId": "ParamChainHPhysics",
+			"Name": "Chain Physics R2 (Head)"
+		},
+		{
+			"Id": "ParamHChainPhysics_R3",
+			"GroupId": "ParamChainHPhysics",
+			"Name": "Chain Physics R3 (Head)"
+		},
+		{
+			"Id": "ParamBChainPhysics_L1",
+			"GroupId": "ParamChainBPhysics",
+			"Name": "Chain Physics L1 (Body)"
+		},
+		{
+			"Id": "ParamBChainPhysics_L2",
+			"GroupId": "ParamChainBPhysics",
+			"Name": "Chain Physics L2 (Body)"
+		},
+		{
+			"Id": "ParamBChainPhysics_L3",
+			"GroupId": "ParamChainBPhysics",
+			"Name": "Chain Physics L3 (Body)"
+		},
+		{
+			"Id": "ParamDivider_66",
+			"GroupId": "ParamChainBPhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBChainPhysics_R1",
+			"GroupId": "ParamChainBPhysics",
+			"Name": "Chain Physics R1 (Body)"
+		},
+		{
+			"Id": "ParamBChainPhysics_R2",
+			"GroupId": "ParamChainBPhysics",
+			"Name": "Chain Physics R2 (Body)"
+		},
+		{
+			"Id": "ParamBChainPhysics_R3",
+			"GroupId": "ParamChainBPhysics",
+			"Name": "Chain Physics R3 (Body)"
+		},
+		{
+			"Id": "ParamHRosePhysics_L1",
+			"GroupId": "ParamGroup4",
+			"Name": "Flower Physics L1 (Head)"
+		},
+		{
+			"Id": "ParamHRosePhysics_L2",
+			"GroupId": "ParamGroup4",
+			"Name": "Flower Physics L2 (Head)"
+		},
+		{
+			"Id": "ParamHRosePhysics_L3",
+			"GroupId": "ParamGroup4",
+			"Name": "Flower Physics L3 (Head)"
+		},
+		{
+			"Id": "ParamHRosePhysics_L4",
+			"GroupId": "ParamGroup4",
+			"Name": "Flower Physics L4 (Head)"
+		},
+		{
+			"Id": "ParamDivider_91",
+			"GroupId": "ParamGroup4",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamHRosePhysics_R1",
+			"GroupId": "ParamGroup4",
+			"Name": "Flower Physics R1 (Head)"
+		},
+		{
+			"Id": "ParamHRosePhysics_R2",
+			"GroupId": "ParamGroup4",
+			"Name": "Flower Physics R2 (Head)"
+		},
+		{
+			"Id": "ParamHRosePhysics_R3",
+			"GroupId": "ParamGroup4",
+			"Name": "Flower Physics R3 (Head)"
+		},
+		{
+			"Id": "ParamHRosePhysics_R4",
+			"GroupId": "ParamGroup4",
+			"Name": "Flower Physics R4 (Head)"
+		},
+		{
+			"Id": "ParamBRosePhysics_L1",
+			"GroupId": "ParamRosePhysics",
+			"Name": "Flower Physics L1 (Body)"
+		},
+		{
+			"Id": "ParamBRosePhysics_L2",
+			"GroupId": "ParamRosePhysics",
+			"Name": "Flower Physics L2 (Body)"
+		},
+		{
+			"Id": "ParamBRosePhysics_L3",
+			"GroupId": "ParamRosePhysics",
+			"Name": "Flower Physics L3 (Body)"
+		},
+		{
+			"Id": "ParamBRosePhysics_L4",
+			"GroupId": "ParamRosePhysics",
+			"Name": "Flower Physics L4 (Body)"
+		},
+		{
+			"Id": "ParamBRosePhysics_L5",
+			"GroupId": "ParamRosePhysics",
+			"Name": "Flower Physics L5 (Body)"
+		},
+		{
+			"Id": "ParamBRosePhysics_L6",
+			"GroupId": "ParamRosePhysics",
+			"Name": "Flower Physics L6 (Body)"
+		},
+		{
+			"Id": "ParamDivider_57",
+			"GroupId": "ParamRosePhysics",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBRosePhysics_R1",
+			"GroupId": "ParamRosePhysics",
+			"Name": "Flower Physics R1 (Body)"
+		},
+		{
+			"Id": "ParamBRosePhysics_R2",
+			"GroupId": "ParamRosePhysics",
+			"Name": "Flower Physics R2 (Body)"
+		},
+		{
+			"Id": "ParamBRosePhysics_R3",
+			"GroupId": "ParamRosePhysics",
+			"Name": "Flower Physics R3 (Body)"
+		},
+		{
+			"Id": "ParamBRosePhysics_R4",
+			"GroupId": "ParamRosePhysics",
+			"Name": "Flower Physics R4 (Body)"
+		},
+		{
+			"Id": "ParamBRosePhysics_R5",
+			"GroupId": "ParamRosePhysics",
+			"Name": "Flower Physics R5 (Body)"
+		},
+		{
+			"Id": "ParamBRosePhysics_R6",
+			"GroupId": "ParamRosePhysics",
+			"Name": "Flower Physics R6 (Body)"
+		},
+		{
+			"Id": "ParamDollPhysics_X1",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "Toy Physics X1"
+		},
+		{
+			"Id": "ParamDollPhysics_X2",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "Toy Physics X2"
+		},
+		{
+			"Id": "ParamDollPhysics_X3",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "Toy Physics X3"
+		},
+		{
+			"Id": "ParamDivider_58",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDollPhysics_Y1",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "Toy Physics Y1"
+		},
+		{
+			"Id": "ParamDollPhysics_Y2",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "Toy Physics Y2"
+		},
+		{
+			"Id": "ParamDollPhysics_Y3",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "Toy Physics Y3"
+		},
+		{
+			"Id": "ParamDivider_59",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDollPerspective_X",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "Toy Perspective X"
+		},
+		{
+			"Id": "ParamDollPerspective_Y",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "Toy Perspective Y"
+		},
+		{
+			"Id": "ParamDivider_78",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDollAngle_L1",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "Doll Perspective L1"
+		},
+		{
+			"Id": "ParamDollAngle_L2",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "Doll Perspective L2"
+		},
+		{
+			"Id": "ParamDollAngle_R1",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "Doll Perspective R1"
+		},
+		{
+			"Id": "ParamDollAngle_R2",
+			"GroupId": "ParamDollPhysics_XY",
+			"Name": "Doll Perspective R2"
+		},
+		{
+			"Id": "ParamDollPhysics_L1",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Physics L1"
+		},
+		{
+			"Id": "ParamDollPhysics_L2",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Physics L2"
+		},
+		{
+			"Id": "ParamDollPhysics_L3",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Physics L3"
+		},
+		{
+			"Id": "ParamDollPhysics_L4",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Physics L4"
+		},
+		{
+			"Id": "ParamDivider_82",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDollPerspective_L1",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Perspective_L1"
+		},
+		{
+			"Id": "ParamDollPerspective_L2",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Perspective L2"
+		},
+		{
+			"Id": "ParamDivider_83",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDollEarPhysics_L1",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Ear L1"
+		},
+		{
+			"Id": "ParamDollEarPhysics_L2",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Ear L2"
+		},
+		{
+			"Id": "ParamDollEarPhysics_L3",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Ear L3"
+		},
+		{
+			"Id": "ParamDollEarPhysics_L4",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Ear L4"
+		},
+		{
+			"Id": "ParamDivider_86",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDollEarPhysics_R1",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Ear R1"
+		},
+		{
+			"Id": "ParamDollEarPhysics_R2",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Ear R2"
+		},
+		{
+			"Id": "ParamDollEarPhysics_R3",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Ear R3"
+		},
+		{
+			"Id": "ParamDollEarPhysics_R4",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Ear R4"
+		},
+		{
+			"Id": "ParamDivider_84",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDollDecorationPhysics_L1",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Decoration_L1"
+		},
+		{
+			"Id": "ParamDollDecorationPhysics_L2",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Decoration_L2"
+		},
+		{
+			"Id": "ParamDollDecorationPhysics_L3",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Decoration_L3"
+		},
+		{
+			"Id": "ParamDivider_85",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDollArmPhysics_L1",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Arm_L1"
+		},
+		{
+			"Id": "ParamDollArmPhysics_L2",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Arm_L2"
+		},
+		{
+			"Id": "ParamDollLegPhysics_L1",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Leg_L1"
+		},
+		{
+			"Id": "ParamDollLegPhysics_L2",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Leg_L2"
+		},
+		{
+			"Id": "ParamDivider_81",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDollTailPhysics_L1",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Tail_L1"
+		},
+		{
+			"Id": "ParamDollTailPhysics_L2",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Tail_L2"
+		},
+		{
+			"Id": "ParamDollTailPhysics_L3",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Tail_L3"
+		},
+		{
+			"Id": "ParamDollTailPhysics_L4",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Tail_L4"
+		},
+		{
+			"Id": "ParamDivider_60",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDollPhysics_R1",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Physics R1"
+		},
+		{
+			"Id": "ParamDollPhysics_R2",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Physics R2"
+		},
+		{
+			"Id": "ParamDollPhysics_R3",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Physics R3"
+		},
+		{
+			"Id": "ParamDollPhysics_R4",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Physics R4"
+		},
+		{
+			"Id": "ParamDivider_61",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamDollPhysics_Z1",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Physics Z1"
+		},
+		{
+			"Id": "ParamDollPhysics_Z2",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Physics Z2"
+		},
+		{
+			"Id": "ParamDollPhysics_Z3",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Toy Physics Z3"
+		},
+		{
+			"Id": "ParamDivider_87",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamLiquidPhysics_X1",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Liquid Physics X1"
+		},
+		{
+			"Id": "ParamLiquidPhysics_X2",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Liquid Physics X2"
+		},
+		{
+			"Id": "ParamLiquidPhysics_X3",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Liquid Physics X3"
+		},
+		{
+			"Id": "ParamLiquidPhysics_Y",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Liquid Physics Y"
+		},
+		{
+			"Id": "ParamLiquidPhysics_Z",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Liquid Physics Z"
+		},
+		{
+			"Id": "ParamDivider_88",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamPearlPhysics_L1",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Pearl Physics L1"
+		},
+		{
+			"Id": "ParamPearlPhysics_L2",
+			"GroupId": "ParamDollPhysics_LR",
+			"Name": "Pearl Physics L2"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamBreathPhysics",
+			"Name": "Breathing"
+		},
+		{
+			"Id": "ParamBreath2",
+			"GroupId": "ParamBreathPhysics",
+			"Name": "Breathing Follow 1"
+		},
+		{
+			"Id": "ParamBreath3",
+			"GroupId": "ParamBreathPhysics",
+			"Name": "Breathing Follow 2"
+		},
+		{
+			"Id": "ParamBreathPhysics_L1",
+			"GroupId": "ParamBreathPhysics",
+			"Name": "Breathing L1"
+		},
+		{
+			"Id": "ParamBreathPhysics_L2",
+			"GroupId": "ParamBreathPhysics",
+			"Name": "Breathing L2"
+		},
+		{
+			"Id": "ParamBreathPhysics_R1",
+			"GroupId": "ParamBreathPhysics",
+			"Name": "Breathing R1"
+		},
+		{
+			"Id": "ParamBreathPhysics_R2",
+			"GroupId": "ParamBreathPhysics",
+			"Name": "Breathing R2"
+		},
+		{
+			"Id": "ParamBreathPhysics_L",
+			"GroupId": "ParamBreathPhysics",
+			"Name": "Expression Breathing"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "ParamAnother",
+			"Name": "Body Rotation X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamAnother",
+			"Name": "Body Rotation Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "ParamAnother",
+			"Name": "Body Rotation Z"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "ParamAnother",
+			"Name": "Blush"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "ParamAnother",
+			"Name": "Sway Front Hair"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "ParamAnother",
+			"Name": "Sway Side Hair"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "ParamAnother",
+			"Name": "Sway Back Hair"
+		},
+		{
+			"Id": "ParamBodyInput_BodyX",
+			"GroupId": "ParamBodyInput",
+			"Name": "Body Input_BodyX"
+		},
+		{
+			"Id": "ParamPhysicsRAM_BodyX",
+			"GroupId": "ParamBodyInput",
+			"Name": "Calculation Buffer_BodyX"
+		},
+		{
+			"Id": "ParamDivider_5",
+			"GroupId": "ParamBodyInput",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBodyInput_BodyY",
+			"GroupId": "ParamBodyInput",
+			"Name": "Body Input_BodyY"
+		},
+		{
+			"Id": "ParamPhysicsRAM_BodyY",
+			"GroupId": "ParamBodyInput",
+			"Name": "Calculation Buffer_BodyY"
+		},
+		{
+			"Id": "ParamDivider_6",
+			"GroupId": "ParamBodyInput",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBodyInput_BodyZ",
+			"GroupId": "ParamBodyInput",
+			"Name": "Body Input_BodyZ"
+		},
+		{
+			"Id": "ParamPhysicsRAM_BodyZ",
+			"GroupId": "ParamBodyInput",
+			"Name": "Calculation Buffer_BodyZ"
+		},
+		{
+			"Id": "ParamDivider_7",
+			"GroupId": "ParamBodyInput",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBodyInput_ChestZ",
+			"GroupId": "ParamBodyInput",
+			"Name": "Body Input_ChestZ"
+		},
+		{
+			"Id": "ParamPhysicsRAM_ChestZ",
+			"GroupId": "ParamBodyInput",
+			"Name": "Calculation Buffer_ChestZ"
+		},
+		{
+			"Id": "ParamDivider_12",
+			"GroupId": "ParamBodyInput",
+			"Name": "■■■■■■■■■■■"
+		},
+		{
+			"Id": "ParamBodyInput_HipZ",
+			"GroupId": "ParamBodyInput",
+			"Name": "Body Input_HipZ"
+		},
+		{
+			"Id": "ParamPhysicsRAM_HipZ",
+			"GroupId": "ParamBodyInput",
+			"Name": "Calculation Buffer_HipZ"
+		},
+		{
+			"Id": "Param_AngleHair_Rotation_L1",
+			"GroupId": "ParamAngleHairRotation_L",
+			"Name": "Four-Section Hair L1"
+		},
+		{
+			"Id": "Param_AngleHair_Rotation_L2",
+			"GroupId": "ParamAngleHairRotation_L",
+			"Name": "Four-Section Hair L2"
+		},
+		{
+			"Id": "Param_AngleHair_Rotation_L3",
+			"GroupId": "ParamAngleHairRotation_L",
+			"Name": "Four-Section Hair L3"
+		},
+		{
+			"Id": "Param_AngleHair_Rotation_L4",
+			"GroupId": "ParamAngleHairRotation_L",
+			"Name": "Four-Section Hair L4"
+		},
+		{
+			"Id": "Param_AngleHair_Rotation_L5",
+			"GroupId": "ParamAngleHairRotation_L",
+			"Name": "Four-Section Hair L5"
+		},
+		{
+			"Id": "Param_AngleHair_Rotation_L6",
+			"GroupId": "ParamAngleHairRotation_L",
+			"Name": "Four-Section Hair L6"
+		},
+		{
+			"Id": "Param_AnglHaire_Rotation_R1",
+			"GroupId": "ParamAngleHairRotation_R",
+			"Name": "Four-Section Hair R1"
+		},
+		{
+			"Id": "Param_AngleHair_Rotation_R2",
+			"GroupId": "ParamAngleHairRotation_R",
+			"Name": "Four-Section Hair R2"
+		},
+		{
+			"Id": "Param_AngleHair_Rotation_R3",
+			"GroupId": "ParamAngleHairRotation_R",
+			"Name": "Four-Section Hair R3"
+		},
+		{
+			"Id": "Param_AngleHair_Rotation_R4",
+			"GroupId": "ParamAngleHairRotation_R",
+			"Name": "Four-Section Hair R4"
+		},
+		{
+			"Id": "Param_AngleHair_Rotation_R5",
+			"GroupId": "ParamAngleHairRotation_R",
+			"Name": "Four-Section Hair R5"
+		},
+		{
+			"Id": "Param_AngleHair_Rotation_R6",
+			"GroupId": "ParamAngleHairRotation_R",
+			"Name": "Four-Section Hair R6"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_L1",
+			"GroupId": "ParamAngleLaceRotation_L",
+			"Name": "Ribbon L1"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_L2",
+			"GroupId": "ParamAngleLaceRotation_L",
+			"Name": "Ribbon L2"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_L3",
+			"GroupId": "ParamAngleLaceRotation_L",
+			"Name": "Ribbon L3"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_L4",
+			"GroupId": "ParamAngleLaceRotation_L",
+			"Name": "Ribbon L4"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_L5",
+			"GroupId": "ParamAngleLaceRotation_L",
+			"Name": "Ribbon L5"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_L6",
+			"GroupId": "ParamAngleLaceRotation_L",
+			"Name": "Ribbon L6"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_L7",
+			"GroupId": "ParamAngleLaceRotation_L",
+			"Name": "Ribbon L7"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_R1",
+			"GroupId": "ParamAngleLaceRotation_R",
+			"Name": "Ribbon R1"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_R2",
+			"GroupId": "ParamAngleLaceRotation_R",
+			"Name": "Ribbon R2"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_R3",
+			"GroupId": "ParamAngleLaceRotation_R",
+			"Name": "Ribbon R3"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_R4",
+			"GroupId": "ParamAngleLaceRotation_R",
+			"Name": "Ribbon R4"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_R5",
+			"GroupId": "ParamAngleLaceRotation_R",
+			"Name": "Ribbon R5"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_R6",
+			"GroupId": "ParamAngleLaceRotation_R",
+			"Name": "Ribbon R6"
+		},
+		{
+			"Id": "Param_AngleLace_Rotation_R7",
+			"GroupId": "ParamAngleLaceRotation_R",
+			"Name": "Ribbon R7"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamShairPhysics_LR",
+			"GroupId": "",
+			"Name": "Side Hair Physics (L&R)"
+		},
+		{
+			"Id": "ParamExpression",
+			"GroupId": "",
+			"Name": "Expression"
+		},
+		{
+			"Id": "ParamSwitchCtrl",
+			"GroupId": "",
+			"Name": "Reverse Binding Key"
+		},
+		{
+			"Id": "ParamOperation",
+			"GroupId": "",
+			"Name": "Controller"
+		},
+		{
+			"Id": "ParamAngleHead",
+			"GroupId": "",
+			"Name": "Head XYZ"
+		},
+		{
+			"Id": "ParamOutput",
+			"GroupId": "",
+			"Name": "Reverse Binding Output"
+		},
+		{
+			"Id": "ParamAngleBody",
+			"GroupId": "",
+			"Name": "Body XYZ"
+		},
+		{
+			"Id": "ParamEye",
+			"GroupId": "",
+			"Name": "Eyes Parameters"
+		},
+		{
+			"Id": "Parambrow",
+			"GroupId": "",
+			"Name": "Eyebrow Parameters"
+		},
+		{
+			"Id": "ParamMouth",
+			"GroupId": "",
+			"Name": "Mouth Parameters"
+		},
+		{
+			"Id": "ParamAnimation",
+			"GroupId": "",
+			"Name": "Animation Parameters"
+		},
+		{
+			"Id": "ParamEyeballPhysics",
+			"GroupId": "",
+			"Name": "Eyeball Physics"
+		},
+		{
+			"Id": "ParamEyelashPhysics",
+			"GroupId": "",
+			"Name": "Eyelash Physics"
+		},
+		{
+			"Id": "ParamOrbithPhysics",
+			"GroupId": "",
+			"Name": "Eye Socket Physics"
+		},
+		{
+			"Id": "ParamExpressionPhysics",
+			"GroupId": "",
+			"Name": "Expression Physics"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "Blink Effect"
+		},
+		{
+			"Id": "ParamHairPhysics_LR",
+			"GroupId": "",
+			"Name": "Bangs Physics (L&R)"
+		},
+		{
+			"Id": "ParamDhairPhysics_LR",
+			"GroupId": "",
+			"Name": "Layer Physics (L&R)"
+		},
+		{
+			"Id": "ParamBhairPhysics_LR",
+			"GroupId": "",
+			"Name": "Back Hair Physics (L&R)"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "Ahoge Physics"
+		},
+		{
+			"Id": "ParamHairPhysics_XY",
+			"GroupId": "",
+			"Name": "Front Hair Physics (X&Y)"
+		},
+		{
+			"Id": "ParamBhairPhysics_XY",
+			"GroupId": "",
+			"Name": "Back Hair Physics (X&Y)"
+		},
+		{
+			"Id": "ParamOvercoatPhysics",
+			"GroupId": "",
+			"Name": "Coat Physics"
+		},
+		{
+			"Id": "ParamDressPhysics",
+			"GroupId": "",
+			"Name": "Skirt Physics"
+		},
+		{
+			"Id": "ParamHatPhysics",
+			"GroupId": "",
+			"Name": "Hat Physics"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "Hat Ear Physics (L&R)"
+		},
+		{
+			"Id": "ParamBackClothesPhysics",
+			"GroupId": "",
+			"Name": "Back Hem Physics"
+		},
+		{
+			"Id": "ParamHeadPendantPhysics",
+			"GroupId": "",
+			"Name": "Pendant Physics (Head)"
+		},
+		{
+			"Id": "ParamDecorationsPhysics",
+			"GroupId": "",
+			"Name": "Pendant Physics (Ear)"
+		},
+		{
+			"Id": "ParamBodyPendantePhysics",
+			"GroupId": "",
+			"Name": "Pendant Physics (Body)"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "Pendant Physics (Necklace XY)"
+		},
+		{
+			"Id": "ParamSleevePendantPhysics",
+			"GroupId": "",
+			"Name": "Pendant Physics (Sleeve)"
+		},
+		{
+			"Id": "ParambreastPhysics",
+			"GroupId": "",
+			"Name": "Chest Physics"
+		},
+		{
+			"Id": "ParamArmPhysics",
+			"GroupId": "",
+			"Name": "Arm Physics"
+		},
+		{
+			"Id": "ParamEarPhysics",
+			"GroupId": "",
+			"Name": "Beast Ear Physics"
+		},
+		{
+			"Id": "ParamWingPhysics",
+			"GroupId": "",
+			"Name": "Wing Physics"
+		},
+		{
+			"Id": "ParamTailPhysics",
+			"GroupId": "",
+			"Name": "Tail Physics"
+		},
+		{
+			"Id": "ParamCollaPhysics",
+			"GroupId": "",
+			"Name": "Collar Physics"
+		},
+		{
+			"Id": "ParamSleevePhysics",
+			"GroupId": "",
+			"Name": "Sleeve Physics"
+		},
+		{
+			"Id": "ParamBowBPhysics",
+			"GroupId": "",
+			"Name": "Bow Physics (Body)"
+		},
+		{
+			"Id": "ParamBowHPhysics",
+			"GroupId": "",
+			"Name": "Bow Physics (Head)"
+		},
+		{
+			"Id": "ParamChainHPhysics",
+			"GroupId": "",
+			"Name": "Chain Physics (Head)"
+		},
+		{
+			"Id": "ParamChainBPhysics",
+			"GroupId": "",
+			"Name": "Chain Physics (Body)"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "Flower Physics (Head)"
+		},
+		{
+			"Id": "ParamRosePhysics",
+			"GroupId": "",
+			"Name": "Flower Physics (Body)"
+		},
+		{
+			"Id": "ParamDollPhysics_XY",
+			"GroupId": "",
+			"Name": "Ragdoll Physics"
+		},
+		{
+			"Id": "ParamDollPhysics_LR",
+			"GroupId": "",
+			"Name": "Toy Physics"
+		},
+		{
+			"Id": "ParamBreathPhysics",
+			"GroupId": "",
+			"Name": "Breathing Physics"
+		},
+		{
+			"Id": "ParamAnother",
+			"GroupId": "",
+			"Name": "Other System Parameters"
+		},
+		{
+			"Id": "ParamBodyInput",
+			"GroupId": "",
+			"Name": "Global Reverse Binding"
+		},
+		{
+			"Id": "ParamAngleHairRotation_L",
+			"GroupId": "",
+			"Name": "Four-Section Hair L (Skinning)"
+		},
+		{
+			"Id": "ParamAngleHairRotation_R",
+			"GroupId": "",
+			"Name": "Four-Section Hair R (Skinning)"
+		},
+		{
+			"Id": "ParamAngleLaceRotation_L",
+			"GroupId": "",
+			"Name": "Ribbon L"
+		},
+		{
+			"Id": "ParamAngleLaceRotation_R",
+			"GroupId": "",
+			"Name": "Ribbon R"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part37",
+			"Name": "Mask.psd"
+		},
+		{
+			"Id": "Part35",
+			"Name": "Hand.psd"
+		},
+		{
+			"Id": "Part7",
+			"Name": "Back Hair Texture.psd"
+		},
+		{
+			"Id": "Part6",
+			"Name": "Back Hair Line.psd"
+		},
+		{
+			"Id": "Part3",
+			"Name": "Mouth Line.psd"
+		},
+		{
+			"Id": "Part2",
+			"Name": "Blush.psd"
+		},
+		{
+			"Id": "Part18",
+			"Name": "Front Hair"
+		},
+		{
+			"Id": "Part23",
+			"Name": "Front Hair Shadow"
+		},
+		{
+			"Id": "Part20",
+			"Name": "Head"
+		},
+		{
+			"Id": "Part51",
+			"Name": "Shoulder Hair"
+		},
+		{
+			"Id": "Part12",
+			"Name": "Octopus"
+		},
+		{
+			"Id": "Part54",
+			"Name": "Upper Body"
+		},
+		{
+			"Id": "Part71",
+			"Name": "Lower Body"
+		},
+		{
+			"Id": "Part79",
+			"Name": "Sleeve"
+		},
+		{
+			"Id": "Part98",
+			"Name": "Top Back"
+		},
+		{
+			"Id": "Part99",
+			"Name": "Back Hair"
+		},
+		{
+			"Id": "Part",
+			"Name": "Cloth Points"
+		},
+		{
+			"Id": "Part36",
+			"Name": "Skirt"
+		},
+		{
+			"Id": "Part29",
+			"Name": "Hand Copy 2"
+		},
+		{
+			"Id": "Part19",
+			"Name": "Loose Hair 1"
+		},
+		{
+			"Id": "Part25",
+			"Name": "Loose Hair 2"
+		},
+		{
+			"Id": "Part26",
+			"Name": "Side Hair"
+		},
+		{
+			"Id": "Part22",
+			"Name": "Bangs"
+		},
+		{
+			"Id": "Part27",
+			"Name": "Bangs Shadow"
+		},
+		{
+			"Id": "Part111",
+			"Name": "Expression"
+		},
+		{
+			"Id": "Part57",
+			"Name": "Head 9"
+		},
+		{
+			"Id": "Part21",
+			"Name": "Eyebrow"
+		},
+		{
+			"Id": "Part30",
+			"Name": "Left Eye"
+		},
+		{
+			"Id": "Part40",
+			"Name": "Nose"
+		},
+		{
+			"Id": "Part41",
+			"Name": "Mouth Cry"
+		},
+		{
+			"Id": "Part42",
+			"Name": "Mouth"
+		},
+		{
+			"Id": "Part4",
+			"Name": "Mouth Interior"
+		},
+		{
+			"Id": "Part44",
+			"Name": "Face"
+		},
+		{
+			"Id": "Part45",
+			"Name": "Ear"
+		},
+		{
+			"Id": "Part52",
+			"Name": "Group 3"
+		},
+		{
+			"Id": "Part53",
+			"Name": "Group 2"
+		},
+		{
+			"Id": "Part13",
+			"Name": "Sucker"
+		},
+		{
+			"Id": "Part14",
+			"Name": "Sucker Highlight"
+		},
+		{
+			"Id": "Part15",
+			"Name": "Eyes"
+		},
+		{
+			"Id": "Part16",
+			"Name": "Ear Front"
+		},
+		{
+			"Id": "Part17",
+			"Name": "Eyes 2"
+		},
+		{
+			"Id": "Part28",
+			"Name": "Eyes 3"
+		},
+		{
+			"Id": "Part8",
+			"Name": "Body"
+		},
+		{
+			"Id": "Part11",
+			"Name": "Ear Back"
+		},
+		{
+			"Id": "Part55",
+			"Name": "Clothes"
+		},
+		{
+			"Id": "Part69",
+			"Name": "Chest"
+		},
+		{
+			"Id": "Part70",
+			"Name": "Body"
+		},
+		{
+			"Id": "Part72",
+			"Name": "Shoes"
+		},
+		{
+			"Id": "Part75",
+			"Name": "Leg"
+		},
+		{
+			"Id": "Part76",
+			"Name": "Back Hem"
+		},
+		{
+			"Id": "Part87",
+			"Name": "Sleeve"
+		},
+		{
+			"Id": "Part80",
+			"Name": "Group 29"
+		},
+		{
+			"Id": "Part81",
+			"Name": "Rope"
+		},
+		{
+			"Id": "Part85",
+			"Name": "Arm"
+		},
+		{
+			"Id": "Part102",
+			"Name": "Back of Head"
+		},
+		{
+			"Id": "Part103",
+			"Name": "Hairpin"
+		},
+		{
+			"Id": "Part104",
+			"Name": "Group 39"
+		},
+		{
+			"Id": "Part105",
+			"Name": "Group 40"
+		},
+		{
+			"Id": "Part100",
+			"Name": "Side Hair Base Color"
+		},
+		{
+			"Id": "Part101",
+			"Name": "Bangs Base Color"
+		},
+		{
+			"Id": "Part33",
+			"Name": "Thumb"
+		},
+		{
+			"Id": "Part38",
+			"Name": "Expression 1"
+		},
+		{
+			"Id": "Part49",
+			"Name": "Expression 2"
+		},
+		{
+			"Id": "Part110",
+			"Name": "Expression 3"
+		},
+		{
+			"Id": "Part43",
+			"Name": "Left Eye"
+		},
+		{
+			"Id": "Part24",
+			"Name": "Upper Eye Socket Left"
+		},
+		{
+			"Id": "Part31",
+			"Name": "Highlight"
+		},
+		{
+			"Id": "Part32",
+			"Name": "Pupil Copy"
+		},
+		{
+			"Id": "Part34",
+			"Name": "Sclera"
+		},
+		{
+			"Id": "Part5",
+			"Name": "Mouth Interior"
+		},
+		{
+			"Id": "Part9",
+			"Name": "Octopus Back"
+		},
+		{
+			"Id": "Part10",
+			"Name": "Octopus Base Color"
+		},
+		{
+			"Id": "Part56",
+			"Name": "Group 16"
+		},
+		{
+			"Id": "Part106",
+			"Name": "Bow"
+		},
+		{
+			"Id": "Part60",
+			"Name": "Belt"
+		},
+		{
+			"Id": "Part63",
+			"Name": "Clothes Upper"
+		},
+		{
+			"Id": "Part66",
+			"Name": "Bodice"
+		},
+		{
+			"Id": "Part67",
+			"Name": "Strap"
+		},
+		{
+			"Id": "Part68",
+			"Name": "Skirt"
+		},
+		{
+			"Id": "Part73",
+			"Name": "Shoe Left"
+		},
+		{
+			"Id": "Part74",
+			"Name": "Shoe Right"
+		},
+		{
+			"Id": "Part77",
+			"Name": "Group 21"
+		},
+		{
+			"Id": "Part78",
+			"Name": "Group 41"
+		},
+		{
+			"Id": "Part88",
+			"Name": "Group 29"
+		},
+		{
+			"Id": "Part89",
+			"Name": "Rope"
+		},
+		{
+			"Id": "Part96",
+			"Name": "Arm"
+		},
+		{
+			"Id": "Part82",
+			"Name": "Group 32"
+		},
+		{
+			"Id": "Part83",
+			"Name": "Group 31"
+		},
+		{
+			"Id": "Part84",
+			"Name": "Group 30"
+		},
+		{
+			"Id": "Part86",
+			"Name": "Hand Copy 2"
+		},
+		{
+			"Id": "Part109",
+			"Name": "Group 39"
+		},
+		{
+			"Id": "Part39",
+			"Name": "Group 38"
+		},
+		{
+			"Id": "Part46",
+			"Name": "Upper Eye Socket Left"
+		},
+		{
+			"Id": "Part47",
+			"Name": "Highlight"
+		},
+		{
+			"Id": "Part48",
+			"Name": "Pupil Copy"
+		},
+		{
+			"Id": "Part50",
+			"Name": "Sclera"
+		},
+		{
+			"Id": "Part107",
+			"Name": "Group 14"
+		},
+		{
+			"Id": "Part108",
+			"Name": "Group 15"
+		},
+		{
+			"Id": "Part61",
+			"Name": "Group 13"
+		},
+		{
+			"Id": "Part62",
+			"Name": "Group 12"
+		},
+		{
+			"Id": "Part64",
+			"Name": "Outer Collar Copy"
+		},
+		{
+			"Id": "Part65",
+			"Name": "Outer Collar"
+		},
+		{
+			"Id": "Part94",
+			"Name": "Group 21"
+		},
+		{
+			"Id": "Part93",
+			"Name": "Group 21"
+		},
+		{
+			"Id": "Part92",
+			"Name": "Group 41"
+		},
+		{
+			"Id": "Part90",
+			"Name": "Group 32"
+		},
+		{
+			"Id": "Part91",
+			"Name": "Group 31"
+		},
+		{
+			"Id": "Part95",
+			"Name": "Group 30"
+		},
+		{
+			"Id": "Part97",
+			"Name": "Hand Copy 2"
+		}
+	]
+}
